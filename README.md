@@ -16,14 +16,9 @@ Contenu prévu
   - Histogrammes, boxplots et scatter plots pour visualiser distributions et corrélations.
   - Carte des positions célestes (RA/Dec) pour visualiser la distribution des étoiles.
 
-- Feature engineering :
-  - Calcul de la distance à partir de la parallaxe (attention aux unités et aux parallaxes nulles ou négatives).
-  - Création d'indices de couleur et de catégories spectrales simplifiées (ex : première lettre de `SpType`).
-
 - Machine Learning (expérimentations) :
   - Clustering (KMeans, DBSCAN) pour regrouper des étoiles selon leurs caractéristiques.
   - Classification simple : prédire le type spectral (ou une version réduite) à partir des caractéristiques photométriques et astrométriques.
-  - Détection d'étoiles variables à partir des indicateurs de variabilité.
 
 Dépendances minimales (Python)
 
